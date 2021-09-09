@@ -1,0 +1,94 @@
+void main() {
+var stdName = "Student Name: Hammad uddin";
+var className= "Class: 7th";
+  
+int math= 85;
+int phyics= 80;
+int urdu= 80;
+int english= 75;
+int computer= 90;
+int chemistry= 85;
+int obtMarks= math+phyics+urdu+english+computer+chemistry;  
+int totalMarks= 600;
+int subjMarks= 100;  
+  
+print(stdName);
+print(className);  
+print("_________________");
+print("| Subject Name | Obtanied Marks | Total Marks |");
+print("_________________");
+print("| Math         | ${math}             | ${subjMarks}         |");
+print("| Phyics       | ${phyics}             | ${subjMarks}         |");
+print("| Urdu         | ${urdu}             | ${subjMarks}         |");
+print("| English      | ${english}             | ${subjMarks}         |");
+print("| Computer     | ${comp…
+[2:05 PM, 9/9/2021] Muhammad Hammad Uddin: void main() {
+var stdName = "Student Name: Hammad uddin";
+var className= "Class: 7th";
+  
+int math= 65;
+int phyics= 60;
+int urdu= 50;
+int english= 60;
+int computer= 71;
+int chemistry= 80;
+int obtMarks= math+phyics+urdu+english+computer+chemistry;  
+int totalMarks= 600;
+int subjMarks= 100;  
+  
+print(stdName);
+print(className);  
+print("_______________________________________________");
+print("| Subject Name | Obtanied Marks | Total Marks |");
+print("_______________________________________________");
+print("| Math         | ${math}             | ${subjMarks}         |");
+print("| Phyics       | ${phyics}             | ${subjMarks}         |");
+print("| Urdu         | ${urdu}             | ${subjMarks}         |");
+print("| English      | ${english}             | ${subjMarks}         |");
+print("| Computer     | ${computer}             | ${subjMarks}         |");  
+print("| Chemistry    | ${chemistry}             | ${subjMarks}         |");
+print("_______________________________________________");
+print("| Total        | ${obtMarks}            | ${totalMarks}         |");
+print("_______________________________________________");
+double percentage = (obtMarks/totalMarks)*100;  
+print ("Percentage: ${percentage}%"); 
+  
+if(math<40){
+  print("fail in Math");
+}
+if(phyics<40){
+  print("fail in Phyics");
+}
+if(urdu<40){
+  print("fail in Urdu");
+}
+if(english<40){
+  print("fail in English");
+}
+if(computer<40){
+  print("fail in Computer");
+}
+if(chemistry<40){
+  print("fail in Chemistry");
+}
+
+
+else if (percentage> 90){
+  print("Grand: A++");}
+  else if(percentage> 80){
+    print("Grand: A+");
+  }
+
+   else if(percentage> 70){
+    print("Grand: A");
+  }
+   else if(percentage> 60){
+    print("Grand: B");
+  }
+  else if(percentage> 50){
+    print("Grand: C");
+  }
+  else{
+    print("Grands: Fail");
+  }
+}
